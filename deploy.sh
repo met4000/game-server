@@ -6,7 +6,7 @@ docker save $BUILD_TAG:latest | ssh -C $REMOTE docker load
 
 while true; do
 
-read -p "Do you want to restart remote deplayment? (y/n) " yn
+read -p "Do you want to restart remote deployment? (y/n) " yn
 
 case $yn in 
 	[yY] )
